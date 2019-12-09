@@ -46,7 +46,7 @@ class ejemplo_GUI(QMainWindow):
 
     def fn_activarShodan(self):
         host = self.target.toPlainText()
-        SHODAN_API_KEY = "bmAvxzNnnJuHTUmNENsFKoRDo02j8rgh"
+        SHODAN_API_KEY = "TU API"
         api = shodan.Shodan(SHODAN_API_KEY)
         results = api.host(host)
         # Mostramos la informacion.
